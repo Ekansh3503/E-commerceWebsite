@@ -1,8 +1,8 @@
-# Full-Stack E-commerce Web Application Tutorial
+# Full-Stack E-commerce Web Application 
 
-## Overview
+## Description
 
-This video tutorial series will guide you through creating a full-stack e-commerce web application using modern technologies such as React, Node.js, MongoDB, and Stripe. The app will have robust features like category filtering, product sorting, a shopping cart, user authentication with JWT, real-time updates with Redux, secure payments with Stripe, and automatic image uploads using Google Firebase Storage. Additionally, an admin dashboard will be provided for order management and analytics.
+This is a full-stack e-commerce web application using modern technologies such as React, Node.js, MongoDB, and Stripe. The app will have robust features like category filtering, product sorting, a shopping cart, user authentication with JWT, real-time updates with Redux, secure payments with Stripe, and automatic image uploads using Google Firebase Storage. Additionally, an admin dashboard will be provided for order management and analytics.
 
 ## Features
 
@@ -22,7 +22,7 @@ This video tutorial series will guide you through creating a full-stack e-commer
 - **Google Firebase Storage**: Product images are automatically uploaded to Google Firebase Storage, simplifying the image handling process.
 
 ### 🛠️ Extensive Stack Integration
-- **Technology Stack**: This tutorial covers the integration of various technologies, including React, Node.js, Redux, JWT, Stripe, Google Firebase Storage, and MongoDB.
+- **Technology Stack**: This web application covers the integration of various technologies, including React, Node.js, Redux, JWT, Stripe, Google Firebase Storage, and MongoDB.
 
 ## Getting Started
 
@@ -36,19 +36,23 @@ This video tutorial series will guide you through creating a full-stack e-commer
 
 1. **Clone the repository**:
    ```bash
-   git clone https://github.com/your-repo/fullstack-ecommerce-tutorial.git
+   git clone https://github.com/Ekansh3503/E-commerceWebsite
+   ```
+   
+2. Navigate into the project directory:
+   ```bash
    cd fullstack-ecommerce-tutorial
    ```
 
-2. **Install backend dependencies**:
+3. **Install backend dependencies**:
    ```bash
-   cd backend
+   cd api
    npm install
    ```
 
-3. **Install frontend dependencies**:
+4. **Install frontend dependencies**:
    ```bash
-   cd ../frontend
+   cd ../client
    npm install
    ```
 
@@ -74,13 +78,13 @@ This video tutorial series will guide you through creating a full-stack e-commer
 
 1. **Start the backend server**:
    ```bash
-   cd backend
+   cd api
    npm start
    ```
 
 2. **Start the frontend development server**:
    ```bash
-   cd ../frontend
+   cd ../client
    npm start
    ```
 
@@ -122,7 +126,11 @@ This video tutorial series will guide you through creating a full-stack e-commer
 - **JWT**: Implement secure user authentication.
 - **Stripe**: Ensure secure payment processing.
 - **Firebase**: Handle image uploads seamlessly.
+## Contributing
 
-## Conclusion
+Contributions are welcome! If you find any bugs or have suggestions for improvements, please open an issue or submit a pull request.
 
-By the end of this tutorial series, you will have a fully functional e-commerce web application with modern features and integrations, ready for deployment and further customization. Happy coding!
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
